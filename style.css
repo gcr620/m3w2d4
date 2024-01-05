@@ -1,0 +1,77 @@
+body{
+    /* background-image: url(travel-pattern-background_23-2148043438.jpg); */
+    background-size: cover;
+}
+div#main{
+    width: 100vw;
+}
+div#main p{
+    margin: 0;
+}
+div#main > div.container-fluid{
+    padding: 0px;
+}
+a.navbar-brand img{
+    width: 55px;
+}
+div#week-offerts{
+    width: 100%;
+}
+div.row > div.week-trip{
+    padding: 0;
+}
+div#week-offerts div.week-trip:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+}
+div#welcome-summer div.week-trip:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+}
+div#week-offerts div.week-trip img{
+    width: 300px;
+    height: 200px;
+}
+div#week-offerts div.week-trip div.desc{
+    width: 300px;
+    max-width: 300px;
+    height: 70px;
+}
+p.price{
+    font-weight: bold;
+}
+div#welcome-summer{
+    width: 100vw;
+}
+div#welcome-summer div.week-trip{
+    box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.30); 
+    max-width: 150px;
+}
+div#welcome-summer div.week-trip img{
+    width: 150px;
+    height: 100px;
+}
+div#welcome-summer div.week-trip div.desc{
+    width: 150px;
+    max-width: 150px;
+    height: 100px;
+}
+div#today-offert img{
+    width: 33%;
+    height: 33%;
+}
+div#today-offert div.desc-b{
+    width: 66%;
+}
+@media screen and (max-width: 480px) {
+    #today-offert { display: none; }
+    #today-offert-msg { display: none; }
+  }
+div#last-minute div.week-trip img{
+    width: 300px;
+    height: 200px;
+}
+div#last-minute div.week-trip:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+}  

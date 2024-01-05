@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m3w2d4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div id="main">
+      <!-- navbar -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="logo.png" alt=""><a>                   
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse show" id="navbarBasic">
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#week-offerts-msg">Offerte delle settiamana</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#welcome-summer-msg">Welcome Summer</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#today-offert-msg">Offerta del giorno</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#last-minute-msg">Last Minute</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Cerca</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <!-- jumbotron -->
+        <div class="p-1 mb-3 bg-info">
+          <div class="container-fluid py-1 text-center row-cols-auto">
+            <h1 class="display-6 fw-bold">GCR Viaggi</h1>
+            <p class="fs-4">Viaggiare in posti <b>unici!</b></p>
+          </div>
+        </div>
+        <!-- offerte della settimana -->
+        <!-- messaggio offerte -->
+        <div id="week-offerts-msg" class="mb-5">
+          <h1 class="border-bottom border-3 border-danger">OFFERTE DELLA SETTIMANA</h1>
+        </div>
+        <!-- elenco offerte settimana -->
+        <div id="week-offerts" class="row row-cols-auto justify-content-evenly align-items-center align-content-center flex-row row-gap-md-0 row-gap-sm-2 row-gap-2 mb-5">
+          <!-- offerta 1 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="Pellaro1.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Pellaro City</h4>
+              <p class="price fs-5">A soli 85€</p>
+            </div>
+          </div>
+          <!-- offerta 2 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="regno-di-asgard.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Asgard</h4>
+              <p class="price fs-5">A soli 100€</p>
+            </div>
+          </div>
+          <!-- offerta 3 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="tokyo-3688119724.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Tokyo</h4>
+              <p class="price fs-5">A soli 190€</p>
+            </div>
+          </div>
+          <!-- offerta 4 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="ncity.png" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Night City</h4>
+              <p class="price fs-5">A soli 150€</p>
+            </div>
+          </div>
+        </div>
+        <!-- sezione offerte estate -->
+        <div id="welcome-summer-msg">
+          <h1 class="border-bottom border-3 border-danger mb-5">WELCOME SUMMER</h1>
+        </div>
+        <!-- card offerte estate -->
+        <div id="welcome-summer" class="row justify-content-evenly align-items-center align-content-center flex-row mb-5 row-gap-4 column-gap-2">
+          <!-- offerta estate 1 -->
+          <div class="week-trip d-flex flex-column">
+            <img src="gotham.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Gotham City</h4>
+              <p class="price fs-5">A soli 130€</p>
+            </div>
+          </div>
+          <!-- offerta estate 2 -->
+          <div class="week-trip d-flex flex-column">
+            <img src="anorlondo.png" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Anor Londo</h4>
+              <p class="price fs-5">A soli 115€</p>
+            </div>
+          </div>
+          <!-- offerta estate 3 -->
+          <div class="week-trip d-flex flex-column">
+            <img src="Yharnam.png" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Yharnam</h4>
+              <p class="price fs-5">A soli 90€</p>
+            </div>
+          </div>
+          <!-- offerta estate 4 -->
+          <div class="week-trip d-flex flex-column">
+            <img src="reggio.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Reggio Calabria</h4>
+              <p class="price fs-5">A soli 80€</p>
+            </div>
+          </div>
+          <!-- offerta estate 5 -->
+          <div class="week-trip d-flex flex-column">
+            <img src="hogwarts.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Hogwarts</h4>
+              <p class="price fs-5">A soli 100€</p>
+            </div>
+          </div>
+          <!-- offerta estate 6 -->
+          <div class="week-trip d-flex flex-column">
+            <img src="mordor.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Mordor</h4>
+              <p class="price fs-5">A soli 140€</p>
+            </div>
+          </div>
+        </div> 
+        <div id="today-offert-msg">
+          <h1 class="border-bottom border-3 border-danger mb-5">OFFERTA DEL GIORNO</h1>
+        </div>
+        <div id="today-offert" class="container-fluid week-trip row flex-row justify-content-center align-content-center mb-5 row-cols-auto">
+          <img src="ncity.png" alt="" class="pe-0">
+          <div class="desc-b border border-1 border-danger bg-dark bg-opacity-25">
+            <h3>test</h3>
+            <p>test</p>
+          </div>
+        </div>
+        <!-- last minute -->
+        <div id="last-minute-msg">
+          <h1 class="border-bottom border-3 border-danger mb-5">LAST MINUTE</h1>
+        </div>
+        <!-- offerte last minute -->
+        <div id="last-minute" class="row row-cols-auto justify-content-evenly align-items-center flex-md-row flex-sm-column row-gap-md-0 row-gap-sm-2 row-gap-2 mb-5">
+          <!-- offerta 1 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="Pellaro1.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Pellaro City</h4>
+              <p class="price fs-5">A soli 85€</p>
+            </div>
+          </div>
+          <!-- offerta 2 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="gotham.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Gotham City</h4>
+              <p class="price fs-5">A soli 130€</p>
+            </div>
+          </div>
+          <!-- offerta 3 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="mordor.jpg" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Mordor</h4>
+              <p class="price fs-5">A soli 140€</p>
+            </div>
+          </div>
+          <!-- offerta 4 -->
+          <div class="week-trip d-flex flex-column border border-1 border-danger">
+            <img src="ncity.png" alt="">
+            <div class="desc d-flex flex-column border border-4 text-center bg-dark bg-opacity-25">
+              <h4 class="city">Night City</h4>
+              <p class="price fs-5">A soli 150€</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
